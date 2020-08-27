@@ -1,0 +1,20 @@
+@import "./style/main.scss" ;
+
+$backgroundColor: #0088cc;
+
+
+#app {
+  height: 100%;
+  div{
+    font-size:14px;
+    display: flex;
+    color:$backgroundColor;
+    input{
+      flex: 1 1 auto;
+    }
+    span{
+      flex:1 1 auto;
+      text-align: center;
+    }
+  }
+}

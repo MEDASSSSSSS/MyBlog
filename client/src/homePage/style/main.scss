@@ -1,0 +1,44 @@
+.home-page{
+  height: 100%;
+  .home-header{
+    color:#fff;
+    font-size:18px;
+    font-style:italic;
+    font-weight: bold;
+  }
+}
+.home-content-wrapper{
+  height: 100%;
+  .home-content{
+    width: 60%;
+    margin: 30px auto;
+    background: #fff;
+  }
+}
+.home-menu{
+  position:fixed;
+  top:100px;
+  left: 50px;
+  background: blue;
+}
+
+.home-content-left{
+  padding:20px;
+
+}
+
+.home-content-right{
+  position: fixed;
+  top:100px;
+  right:50px;
+  background: #333333;
+  width: 15%;
+  min-width: 150px;
+}
+.flex-vertical{
+  flex-direction: column;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
